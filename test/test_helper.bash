@@ -47,7 +47,6 @@ EOF
 }
 
 teardown() {
-  git config --global --remove-section $GIT_DUET_CONFIG_NAMESPACE || true
   rm -rf "$GIT_DUET_TEST_DIR"
 }
 
